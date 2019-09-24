@@ -1,2 +1,2 @@
 # ARL-COMBAT-Model
-Coming Soon.
+Coming Soon in October, 2019.
