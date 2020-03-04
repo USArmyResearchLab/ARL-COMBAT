@@ -2,17 +2,22 @@ ARL Computational Model Builder and Analysis Toolkit (ARL-COMBAT)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The ARL Computational Model Builder and Analysis Toolkit (ARL COMBAT) is a collection of Python modules that can be used to create model structures and characterize their structural and material properties.
+
 The ARL Computational Model Builder and Analysis Toolkit (ARL COMBAT) leverages functionality present within the LAMMPS software package, and can be used to analyze LAMMPS-formatted dump files.
+
 The software was developed at the US Army CCDC Army Research Laboratory and partially funded through the DOD High Performance Computing Modernization Program (HPCMP) Internship Program.
+
 Portions of the ARL COMBAT is distributed under the Creative Commons Zero 1.0 Universal (CC0 1.0) Public Domain Dedication and GNU General Public License v3.0.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The ARL Computational Model Builder and Analysis Toolkit (ARL COMBAT) distribution includes the following files and directories:
-README 	   		this file
-LICENSE              	the Creative Commons Zero 1.0 Universal (CC0 1.0) Public Domain Dedication and the GNU General Public License version 3.0
-examples             	simple test problems
-combat                	ARL COMBAT source files
+
+1. README.md 	   		this file
+2. LICENSE              	the Creative Commons Zero 1.0 Universal (CC0 1.0) Public Domain Dedication and the GNU General Public License version 3.0
+3. examples             	simple test problems
+4. combat                	ARL COMBAT source files
+5. combat                	ARL COMBAT source files
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PREREQUISITES
