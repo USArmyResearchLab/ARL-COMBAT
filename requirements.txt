@@ -1,0 +1,6 @@
+mpi4py
+networkx
+numpy
+pandas
+scipy
+
