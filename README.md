@@ -73,12 +73,19 @@ Foley, D.; Coleman, S.P.; Tucker, G.; Tschopp, M.A.  "Voronoi Based Nanocrystall
 CONTRIBUTING AUTHORS:
 
 Michael E. Fortunato, Department of Chemistry, University of Florida, Gainesville, FL.
+
 Daniel Foley, Mechanical Engineering, Colorado School of Mines, Golden, CO.
+
 Garritt Tucker, Mechanical Engineering, Colorado School of Mines, Golden, CO.
+
 Joseph Mattson, Science and Math Academy, Aberdeen High School, Aberdeen, MD.
+
 DeCarlos E. Taylor, Weapons and Materials Research Directorate, US Army CCDC Army Research Laboratory, Aberdeen Proving Ground, MD.
+
 Shawn P. Coleman, Weapons and Materials Research Directorate, US Army CCDC Army Research Laboratory, Aberdeen Proving Ground, MD.
+
 James P. Larentzos, Weapons and Materials Research Directorate, US Army CCDC Army Research Laboratory, Aberdeen Proving Ground, MD.
+
 John K. Brennan, Weapons and Materials Research Directorate, US Army CCDC Army Research Laboratory, Aberdeen Proving Ground, MD.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
