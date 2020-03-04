@@ -59,14 +59,18 @@ The following examples for running the software are provided within the examples
 DOCUMENTATION
 
 Documentation of the examples are provided in the ARL Technical Report entitled, "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", ARL-TR-8213.
+
 Documentation of the polycrystal builder is provided in the ARL Technical Note entitled, "Voronoi Based Nanocrystalline Generation Algorithm for Atomistic Simulations", ARL-TN-0806.
+
 Readers are directed to the LAMMPS website at http://lammps.sandia.gov for more thorough documentation on the LAMMPS framework and user commands.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CITATIONS
 
 If you are using this work in a publication, please include the following references in your paper:
+
 Fortunato, M.E.; Mattson, J.; Taylor, D.E.; Larentzos, J.P.; Brennan, J.K.  "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", ARL Technical Report, ARL-TR-8213, 2017.
+
 Foley, D.; Coleman, S.P.; Tucker, G.; Tschopp, M.A.  "Voronoi Based Nanocrystalline Generation Algorithm for Atomistic Simulations", ARL Technical Note. ARL-TN-0806, 2016.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
