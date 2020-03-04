@@ -1,0 +1,10 @@
+The following summarizes the examples.
+
+Example                         Description
+------------------------   	-----------------------------------------------------------------------------------------
+01_BuildSingleCrystal	   	Creates a FCC single crystal using LAMMPS
+02_BuildPolyCrystal	   	Creates a polycrystal using nanocrystal_builder.py, then formats the file using combat.py
+03_BuildComposite	   	Creates a polycrystal composite using LAMMPS, then formats using combat.py
+04_DetectVoids		   	Detects voids within a sample using LAMMPS
+05_IndentifyGBs		   	Identifies grain boundaries in a polycrystal sample
+06_ComputeLocalTemperature	Computes the local weighted average temperature of particles in a sample

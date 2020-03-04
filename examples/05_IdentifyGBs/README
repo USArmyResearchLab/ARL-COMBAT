@@ -1,0 +1,21 @@
+Description:  This example reduces a polycrystal dump file to one that only includes the atoms at the interfaces.
+
+Prerequisites:  combat.py, NumPy, SciPy
+
+Input files:  Requires a LAMMPS dump file (dump.polycrystal) containing the polycrystalline sample structure
+
+Usage:  python identifyGB.py
+
+Output:  Creates a dump file called dump.boundaries that contains the atomic coordinates 
+	 of the interface atoms in a polycrystalline sample.
+
+Contributing Author:  Michael Fortunato and James Larentzos
+
+Notes:  See Example A2 and A5 in the appendix of ARL Technical Report ARL-TR-8213, 2017.
+	Example A5 generates the polycrystal dump file and Example A5 reduces it to only the interface atoms.
+
+References:
+
+1. Fortunato, M.E.; Mattson, J.; Taylor, D.E.; Larentzos, J.P.; Brennan, J.K.  
+   "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", 
+   ARL Technical Report, ARL-TR-8213, 2017.

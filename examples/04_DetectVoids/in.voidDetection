@@ -1,0 +1,48 @@
+## LAMMPS input script for void detection (see Fortunato et al., ARL-TR-8213 (2017), Table A-6)
+
+log             log.void_detection
+units           metal
+atom_style      atomic
+boundary        p p p
+lattice         fcc 6.5
+region          crystal_box block 0 15 0 15 0 15 units lattice
+create_box      2 crystal_box 
+create_atoms    1 region crystal_box
+group           crystal type 1
+region          sph_void1 sphere 30 30 30 20 units box
+delete_atoms    region sph_void1
+region          sph_void2 sphere 70 70 70 20 units box
+delete_atoms    region sph_void2
+pair_style      zero 6.5
+mass            *         1
+pair_coeff      * *
+
+neighbor        0.0 bin
+
+lattice         sc 1
+create_atoms    2 box
+
+group           dummy type 2
+
+delete_atoms    overlap 6.5 dummy crystal
+
+compute         voronoi dummy voronoi/atom
+compute         voronoi_vol dummy reduce sum c_voronoi[1]
+
+variable        dummy_x atom x
+variable        dummy_y atom y
+variable        dummy_z atom z
+
+compute         void_cluster dummy cluster/atom 6.5
+compute         void_chunk dummy chunk/atom c_void_cluster compress yes
+fix             chunk_vol dummy ave/chunk 1 1 1 void_chunk v_dummy_x v_dummy_y v_dummy_z c_voronoi[1] file void.chunk.vol
+
+variable        voronoi_vol equal c_voronoi_vol
+
+dump            void_cluster dummy custom 1 dump.void.dummy id type x y z c_void_chunk c_voronoi[1]
+dump            crystal crystal custom 1 dump.void.crystal id type x y z
+fix             void_props all print 1 "$(v_voronoi_vol)" append dump.void.props
+
+run 1
+
+quit

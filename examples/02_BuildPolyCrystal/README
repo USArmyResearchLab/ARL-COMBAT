@@ -1,0 +1,22 @@
+Description:  This example creates a LAMMPS-formatted polycrystalline data and dump files using the nanocrystal_builder.py and combat.py modules.
+
+Prerequisites:  NumPy, SciPy, nanocrystal_builder.py, combat.py
+
+Input files:  Requires a dump file (dump.singlecrystal) containing the crystal structure
+
+Usage:  python nanocrystal_builder.py
+	python addMoleculeID.py
+
+Output:  Creates a data file called data.polycrystal that contains the atomic coordinates 
+	 of a 100x100x100 Angstrom^3 polycrystalline sample.
+
+Contributing Author:  Michael Fortunato and James Larentzos
+
+Notes:  See Example A1 and A2 in the appendix of ARL Technical Report ARL-TR-8213, 2017.
+	Example A1 generates the dump file and Example A2 generates the polycrystal data file in molecular format.
+
+References:
+
+1. Fortunato, M.E.; Mattson, J.; Taylor, D.E.; Larentzos, J.P.; Brennan, J.K.  
+   "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", 
+   ARL Technical Report, ARL-TR-8213, 2017.

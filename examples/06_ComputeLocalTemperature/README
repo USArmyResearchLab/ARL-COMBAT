@@ -1,0 +1,21 @@
+Description:  This example computes the local temperature and outputs it to a modified dump file.
+
+Prerequisites:  combat.py, NumPy, SciPy
+
+Input files:  Requires a LAMMPS dump file (dump.singlecrystal) containing a single crystal sample
+
+Usage:  python addLocalTemperature.py
+
+Output:  Creates a dump file called dump.weighting that contains the atomic coordinates, as well as
+	 an additional column containing the locally weighted property.
+
+Contributing Author:  Michael Fortunato and James Larentzos
+
+Notes:  See Example A1 and A6 in the appendix of ARL Technical Report ARL-TR-8213, 2017.
+	Example A1 generates the single crystal dump file and Example A6 computes/dumps the locally averaged property.
+
+References:
+
+1. Fortunato, M.E.; Mattson, J.; Taylor, D.E.; Larentzos, J.P.; Brennan, J.K.  
+   "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", 
+   ARL Technical Report, ARL-TR-8213, 2017.

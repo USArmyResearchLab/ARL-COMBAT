@@ -1,0 +1,18 @@
+Description:  This example creates an FCC single crystal using LAMMPS.
+
+Prerequisites:  Install serial or parallel version of LAMMPS.
+
+Usage:  ./lmp_serial < in.singlecrystal
+
+Output:  Creates a dump file called dump.singlecrystal that contains the atomic coordinates 
+	 of a 10x10x10 Angstrom^3 FCC crystal.
+
+Contributing Author:  Michael Fortunato and James Larentzos
+
+Notes:  See the appendix of ARL Technical Report ARL-TR-8213, 2017.
+
+References:
+
+1. Fortunato, D.E.; Mattson, J.; Taylor, D.E.; Larentzos, J.P.; Brennan, J.K.  
+   "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", 
+   ARL Technical Report, ARL-TR-8213, 2017.

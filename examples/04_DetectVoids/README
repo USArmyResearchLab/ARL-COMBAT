@@ -1,0 +1,19 @@
+Description:  This example creates a single crystal with voids, then detects and computes the void volume
+
+Prerequisites:  LAMMPS
+
+Input files:  None
+
+Usage:  ./lmp_serial < in.voidDetection
+
+Output:  Creates a dump files containing the crystal, the void volume and the void sizes.
+
+Contributing Author:  Michael Fortunato and James Larentzos
+
+Notes:  See Example A4 in the appendix of ARL Technical Report ARL-TR-8213, 2017.
+
+References:
+
+1. Fortunato, M.E.; Mattson, J.; Taylor, D.E.; Larentzos, J.P.; Brennan, J.K.  
+   "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", 
+   ARL Technical Report, ARL-TR-8213, 2017.

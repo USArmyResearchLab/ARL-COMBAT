@@ -1,0 +1,22 @@
+Description:  This example expands a polycrystal, inserts monomers, grows polymer chains, and outputs the composite data file.
+
+Prerequisites:  LAMMPS, combat.py, NumPy, SciPy, networkx
+
+Input files:  Requires a LAMMPS data file (data.polycrystal.molecules) containing the polycrystalline sample structure in molecular format
+
+Usage:  ./lmp_serial < in.growPolymer
+	python updateMolecules.py
+
+Output:  Creates a data file called data.expanded_composite.molecules that contains the atomic coordinates 
+	 of an expanded 150x150x150 Angstrom^3 composite sample.
+
+Contributing Author:  Michael Fortunato and James Larentzos
+
+Notes:  See Example A2 and A3 in the appendix of ARL Technical Report ARL-TR-8213, 2017.
+	Example A2 generates the polycrystal data file and Example A3 generates the composite. 
+
+References:
+
+1. Fortunato, M.E.; Mattson, J.; Taylor, D.E.; Larentzos, J.P.; Brennan, J.K.  
+   "Pre- and Post-Processing Tools to Create and Characterize Particle-Based Composite Model Structures", 
+   ARL Technical Report, ARL-TR-8213, 2017.
