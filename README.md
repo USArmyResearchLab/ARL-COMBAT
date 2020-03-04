@@ -13,26 +13,26 @@ Portions of the ARL COMBAT is distributed under the Creative Commons Zero 1.0 Un
 
 The ARL Computational Model Builder and Analysis Toolkit (ARL COMBAT) distribution includes the following files and directories:
 
-1. README.md 	   		this file
-2. LICENSE              	the Creative Commons Zero 1.0 Universal (CC0 1.0) Public Domain Dedication and the GNU General Public License version 3.0
-3. examples             	simple test problems
-4. combat                	ARL COMBAT source files
-5. combat                	ARL COMBAT source files
+1. README.md --	this file
+2. LICENSE -- the Creative Commons Zero 1.0 Universal (CC0 1.0) Public Domain Dedication and the GNU General Public License version 3.0
+3. examples -- simple test problems
+4. combat -- ARL COMBAT source files
+5. doc -- ARL Technical Reports describing ARL COMBAT
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PREREQUISITES
 
 The following prerequisite software and libraries are required to be installed prior to using the ARL Computational Model Builder and Analysis Toolkit (ARL COMBAT):
 
-1.  combat.py 		     located within the src/ directory
-2.  nanocrystal_builder.py   located within the src/ directory
-3.  LAMMPS 		     http://lammps.sandia.gov
-4.  Python 		     https://www.python.org/
-5.  NumPy 		     http://www.numpy.org/
-6.  SciPy 		     https://www.scipy.org/
-7.  pandas 		     http://pandas.pydata.org/
-8.  mpi4py 		     http://mpi4py.scipy.org/docs/
-9.  networkx 		     http://networkx.github.io/
+1.  combat.py -- located within the src/ directory
+2.  nanocrystal_builder.py -- located within the src/ directory
+3.  LAMMPS:  http://lammps.sandia.gov
+4.  Python:  https://www.python.org/
+5.  NumPy:  http://www.numpy.org/
+6.  SciPy:  https://www.scipy.org/
+7.  pandas:  http://pandas.pydata.org/
+8.  mpi4py:  http://mpi4py.scipy.org/docs/
+9.  networkx:  http://networkx.github.io/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 BUILD INSTRUCTIONS
